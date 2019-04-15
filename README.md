@@ -1,19 +1,24 @@
 # data-driven-stock-investment
-- 해당 GITHUB에는 다음 내용이 있습니다.
-    - program
-        - algorithm: 투자 알고리즘 기초 모듈 제공
-        - crawler: 일봉, 분봉, 네이버 댓글 등 크롤링 프로그램
-        - kiwoom: Kiwoom 증권사 API를 사용하는 프로그램
-        - telegram: Telegram 메세지 프로그램
-        - tester: 백테스트 기초 모듈 제공
-        - trader: 알고리즘 트레이딩 프로그램 
-        - utils: 기타 프로그램
-    - invest
-        - 미세먼지
-        - 가상화폐
-        - 추세추종
-    - material
-        - 알고리즘 트레이딩을 하기 위한 참고 자료
-        
-        
-   
+
+- Author: 최정윤
+<hr/>
+### Program Structure
+- program
+    - Algorithm: 투자 알고리즘 기초 모듈 구현
+    - program: 투자 프로그램 구현
+        - crawler
+            - get_all_codes: 종목 코드
+            - get_day_data: 일봉
+            - get_summary_finance_sheet: 재무제표
+            - get_minute_data: 분봉
+            - get_naver_comment: 네이버 댓글
+        - kiwoom
+            - get_code_info: 종목 정보
+            - get_code_name_list: 종목 코드 및 이름
+        - telegram
+            - alarm: 조건에 맞는 알람
+        - tester: 백 테스트 하기 위한 모듈
+        - trader: 알고리즘 트레이딩 프로그램
+        - utils: 유틸리티 모듈
+    - invest: 투자 전략 구현
+    - material: 알고리즘 투자를 하기 위한 참고 자료
