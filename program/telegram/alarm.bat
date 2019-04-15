@@ -1,0 +1,1 @@
+python C:\Users\lifesailor\Desktop\investment\data-driven-investment\program\telegram\alarm.py
