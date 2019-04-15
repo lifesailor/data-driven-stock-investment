@@ -357,8 +357,8 @@ if __name__ == "__main__":
     kiwoom = Kiwoom()
     kiwoom.comm_connect()
 
-    kiwoom.set_input_value("계좌번호", "8115897911")
-    kiwoom.set_input_value("비밀번호", "5864")
+    kiwoom.set_input_value("계좌번호", "")
+    kiwoom.set_input_value("비밀번호", "")
     kiwoom.comm_rq_data("opw00001_req", 'opw00001', 0, '2000')
     print(kiwoom.d2_deposit)
 

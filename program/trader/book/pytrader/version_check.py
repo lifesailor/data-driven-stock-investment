@@ -12,11 +12,11 @@ dlg = timings.wait_until_passes(20, 0.5, lambda: app.window(title=title))
 
 pass_ctrl = dlg.Edit2
 pass_ctrl.SetFocus()
-pass_ctrl.TypeKeys('gjgd1020')
+pass_ctrl.TypeKeys('')
 
 cert_ctrl = dlg.Edit3
 cert_ctrl.SetFocus()
-cert_ctrl.TypeKeys('Intheflow91!')
+cert_ctrl.TypeKeys('')
 
 btn_ctrl = dlg.Button0
 btn_ctrl.Click()
