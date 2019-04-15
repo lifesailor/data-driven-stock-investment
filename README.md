@@ -1,7 +1,5 @@
 # data-driven-stock-investment
 
-- Author: 최정윤
-<hr/>
 ### Program Structure
 - program
     - Algorithm: 투자 알고리즘 기초 모듈 구현
