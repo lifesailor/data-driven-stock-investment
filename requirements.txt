@@ -81,7 +81,7 @@ llvmlite==0.23.1
 locket==0.2.0
 Logbook==1.4.3
 lru-dict==1.1.6
-lxml==4.2.1
+lxml==4.9.1
 Mako==1.0.8
 MarkupSafe==1.0
 matplotlib==2.2.2
